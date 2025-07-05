@@ -54,6 +54,7 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
     axs[0].set_title("Train loss")
     axs[1].plot(statistics["train_accuracy"])
     axs[1].set_title("Train accuracy")
+    os.makedirs("reports/figures", exist_ok=True)
     fig.savefig("reports/figures/training_statistics.png")
 
 
