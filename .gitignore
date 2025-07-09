@@ -2,6 +2,10 @@ docs/site/
 data/processed/
 data/raw/
 models/
+src/s3_repro/experiment/*
+src/s3_repro/outputs/*
+src/s4_debugging_and_logging/log
+
 
 # test cache
 manual_test/

@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            pipz4vmmvxrvvspj3gf7gkhn9keye800:
+                codePath: src/lmu_ss25_mlops/train_light.py
+                codePathLocal: src/lmu_ss25_mlops/train_light.py
+                cpu_count: 10
+                cpu_count_logical: 20
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "56533245952"
+                email: egesualp@gmail.com
+                executable: /home/esualp/miniconda3/envs/mlops/bin/python
+                git:
+                    commit: 8cec30d56013bb651e5edd0d49b16214f5285e2c
+                    remote: git@github.com:egesualp/mlops-practice.git
+                gpu: NVIDIA GeForce RTX 4050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      memoryTotal: "6439305216"
+                      name: NVIDIA GeForce RTX 4050 Laptop GPU
+                      uuid: GPU-524f413a-a35b-e41b-6980-1ce8b695c3e6
+                host: sualpster
+                memory:
+                    total: "8128937984"
+                os: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39
+                program: /mnt/c/Users/esual/local/local_repos/mlops-practice/src/lmu_ss25_mlops/train_light.py
+                python: CPython 3.12.11
+                root: .
+                startedAt: "2025-07-09T15:12:29.831339Z"
+                writerId: pipz4vmmvxrvvspj3gf7gkhn9keye800
+        m:
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "2": '*'
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.12.11
+        t:
+            "1":
+                - 1
+                - 9
+                - 41
+                - 103
+            "2":
+                - 1
+                - 9
+                - 41
+                - 103
+            "3":
+                - 7
+                - 66
+            "4": 3.12.11
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
