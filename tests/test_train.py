@@ -4,8 +4,10 @@ from lmu_ss25_mlops.data import corrupt_mnist
 from torch.utils.data import DataLoader
 from torch.nn import CrossEntropyLoss
 from torch.optim import Adam
+import pytest
+import os
 
-
+@pytest.mark.skipif(not os.path.exists("data/processed/train_images.pt"), reason="Data not available in CI")
 def test_training_step_runs():
     model = MyAwesomeModel()
     loss_fn = CrossEntropyLoss()
